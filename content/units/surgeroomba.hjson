@@ -1,0 +1,22 @@
+Type: flying
+name: Surge Roomba
+descrition: "A flying variation of the silicon roomba"
+maxVelocity: 1.5
+speed: 1.3
+hovering: true
+itemCapacity: 50
+accel: 0.4
+drag: 0.1
+visualElevation: 0.3
+flying: true
+hitsize: 4
+health: 70
+commandLimit: 0
+research: {
+    parent: transport-factory
+    requirements:
+    [
+        {item: silicon, amount: 1500}
+		{item: surge-alloy, amount: 1500}
+    ]
+}

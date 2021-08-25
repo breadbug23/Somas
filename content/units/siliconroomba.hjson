@@ -1,0 +1,18 @@
+Type: mech
+name: Silicon Roomba
+descrition: "A simple roomba that at got out of his conventionnal path. Using is for transport of resource is the only viable use."
+maxVelocity: 1
+speed: 0.9
+itemCapacity: 15
+accel: 0.4
+drag: 0.1
+hitsize: 4
+health: 70
+commandLimit: 0
+research: {
+    parent: transport-factory
+    requirements:
+    [
+        {item: silicon, amount: 1500}
+    ]
+}

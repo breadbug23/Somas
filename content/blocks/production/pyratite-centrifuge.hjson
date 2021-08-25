@@ -1,0 +1,46 @@
+type: GenericSmelter
+size: 3
+name: Pyratite Centrifuge
+description: "Mixes coal, lead and sand into pyratite. Use the thermal power of slag to boost the production"
+itemCapacity: 30
+
+liquidCapacity: 12
+consumes: 
+	{
+	
+power: 0.4
+	
+items: 
+		{
+		
+items: 
+			[
+			
+sand/5
+			lead/5
+			coal/3
+			
+]
+		}
+	liquid: 
+		{
+		
+liquid: slag
+		
+amount: 0.3
+		}
+	} 
+
+outputItem: pyratite/5
+requirements: 
+	[
+	lead/45
+	silicon/10
+	copper/75
+
+	
+]
+
+category: crafting
+
+research: pyratite-mixer

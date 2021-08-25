@@ -1,0 +1,67 @@
+Type: flying
+name: Storm
+description: "Is equiped with two large shock canons."
+maxVelocity: 0.5
+speed: 0.45
+flying: true
+visualElevation: 0.50
+rotateSpeed: 1.3
+hitsize: 22
+engineSize: 0
+health: 21500
+lowAltitude: true
+armor: 16
+commandLimit: 10
+weapons: 
+  [
+		{
+		name: storm-gunner
+		top: true
+		reload: 55
+		shots: 8
+		inaccuracy: 25
+		spacing: 2
+		x: 16
+		y: 0
+		rotate: true
+		rotateSpeed: 1.5
+		shootSound: bigshot
+		recoilAmount: 5
+		bullet: {
+			type: BasicBulletType
+			width: 11
+			height: 20
+			lifteime: 25
+			damage: 15
+			speed: 5
+			backColor: bf92f9
+			frontColor: ffffff
+			fragCone: 180
+			fragBullets: 3
+			fragBullet: {
+				type: LightningBulletType
+				lightningColor: bf92f9
+				hitColor: bf92f9
+				damage: 25
+				lightningLength: 7
+				lightningLengthRand: 7
+				lightningType: {
+				lifetime: 0.5
+				statusDuration: 10
+				}
+				}
+			}
+		shootStatus: slow
+		shootStatusDuration: 20
+			}
+	]
+research: {
+    parent: thunder
+    requirements:
+    [
+        {item: lead, amount: 99000},
+        {item: phase-fabric, amount: 31000}
+		{item: surge-alloy, amount: 46000}
+		{item: plastanium, amount: 56000}
+    ]
+}

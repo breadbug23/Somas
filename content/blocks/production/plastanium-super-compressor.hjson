@@ -1,0 +1,49 @@
+type: GenericCrafter
+size: 3
+name: Plastanium Super Compressor
+description: "Produce plastanium from oil and titanium, using sand to boost the production, at the cost of power."
+itemCapacity: 30
+
+liquidCapacity: 12
+consumes: 
+	{
+	
+power: 3.5
+	
+items: 
+		{
+		
+items: 
+			[
+			
+sand/4
+			titanium/4
+			
+]
+		}
+	liquid: 
+		{
+		
+liquid: oil
+		
+amount: 0.3
+		}
+	} 
+
+outputItem: plastanium/6
+
+requirements: 
+	[
+	lead/135
+	titanium/120
+	silicon/100
+	
+plastanium/35
+
+	graphite/80
+	
+]
+
+category: crafting
+craftEffect: formsmoke
+research: plastanium-compressor

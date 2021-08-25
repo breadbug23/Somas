@@ -1,0 +1,43 @@
+Type: flying
+name: Taser
+description: "Shoot arcs of electricity."
+maxVelocity: 0.6
+speed: 0.6
+flying: true
+visualElevation: 0.25
+rotateSpeed: 2
+hitsize: 11
+engineSize: 0
+health: 590
+armor: 2
+commandLimit: 6
+weapons: 
+  [
+    {
+        name: tas
+        top: true
+        reload: 5
+        shots: 2
+        inaccuracy: 35
+        spacing: 0
+		x: 0
+		mirror: false
+        ejectEffect: none
+        shootSound: spark
+        bullet: {
+            type: LightningBulletType
+            damage: 10
+            lightningLength: 8
+            lightningLengthRand: 7
+            lightningColor: bf92f9
+            lightning: 3
+        }
+    }
+	]
+research: {
+    parent: zapper
+    requirements: [
+        {item: silicon, amount: 4000}
+		{item: graphite, amount: 4000}
+	]
+}

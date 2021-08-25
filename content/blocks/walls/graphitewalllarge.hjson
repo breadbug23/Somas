@@ -1,0 +1,15 @@
+type: Wall
+name: Large Graphite Wall
+
+description: "A wall that can be placed on water."
+health: 2000
+
+size: 2
+requirements: [
+  graphite/24
+]
+
+category: defense
+
+research: graphitewall
+placeableLiquid: true

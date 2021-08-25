@@ -1,0 +1,28 @@
+type: SolidPump
+name: slag extractor
+description: "Extracts slag from far into the ground. used in location with no slag or scrap avaible."
+health: 450
+size: 3
+hasPower: true
+hasLiquids: true
+liquidCapacity: 40
+
+requirements: [
+    copper/105
+    graphite/95
+    lead/130
+    metaglass/100
+]
+consumes: {
+    power: 2
+}
+
+pumpAmount: 0.15
+rotateSpeed: 1.5
+result: slag
+baseEfficiency: 0.75
+attribute: heat
+
+
+category: production
+research: water-extractor

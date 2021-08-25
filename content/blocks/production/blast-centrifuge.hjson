@@ -1,0 +1,44 @@
+type: GenericSmelter
+size: 3
+name: Blast Centrifuge
+description: "Produce blast compound from pyatite and spore pod. Use the thermal power of slag to boost the production"
+itemCapacity: 30
+
+liquidCapacity: 12
+consumes: 
+	{
+	
+power: 0.5
+	
+items: 
+		{
+		
+items: 
+			[
+			
+pyratite/4
+			spore-pod/4
+			
+]
+		}
+	liquid: 
+		{
+		
+liquid: slag
+		
+amount: 0.3
+		}
+	} 
+
+outputItem: blast-compound/5
+requirements: 
+	[
+	lead/45
+	silicon/20
+	titanium/40
+	
+]
+
+category: crafting
+
+research: pyratite-centrifuge

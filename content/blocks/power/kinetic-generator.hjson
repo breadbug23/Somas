@@ -1,0 +1,18 @@
+type: ImpactReactor
+name: kinetic generator
+description: "Produce power by using kinetic energy. Need power to kickstart."
+health: 160
+size: 2
+liquidCapacity: 0
+itemCapacity: 0
+consumes:
+ {
+  power: 0.5
+}
+requirements: [
+copper/350
+silicon/400
+thorium/250
+]
+powerProduction: 2
+category: power

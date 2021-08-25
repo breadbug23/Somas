@@ -1,0 +1,45 @@
+Type: flying
+name: Zapper
+description: "Fly toward enemies and self-destructs, causing a huge electrical decharge."
+maxVelocity: 1
+speed: 1
+flying: true
+visualElevation: 0.2
+rotateSpeed: 3.3
+hitsize: 8
+legCount: 0
+engineSize: 0
+health: 160
+commandLimit: 4
+weapons: 
+  [
+    {
+	name: zap
+	reload: 24
+	shootSound: lasershoot
+	shots: 1
+	x: 0
+	y: 0
+	rotate: true
+	rotateSpeed: 10
+	inacuracy: 120
+	bullet: {
+		bulletType: LightningBulletType
+		damage: 75
+		lightningColor: bf92f9
+		lifetime: 1
+		lightning: 3
+		lightningLength: 3
+		lightningLengthRand: 5
+		killShooter: true
+		}
+		}
+	]
+research: {
+    parent: crawler
+    requirements:
+    [
+        {item: silicon, amount: 3000}
+		{item: surge-alloy, amount: 500}
+    ]
+}

@@ -1,0 +1,45 @@
+size: 3
+name: Phase Reweaver
+description: "Synthesizes phase fabric from thorium and sand, using a cooling system to boost production."
+itemCapacity: 40
+liquidCapacity: 12
+consumes: 
+	{
+	
+power: 6
+	
+items: 
+		{
+		
+items: 
+			[
+			
+sand/15
+			thorium/6
+			
+]
+		}
+	liquid: 
+		{
+		
+liquid: cryofluid
+		
+amount: 0.3
+		}
+	} 
+
+outputItem: phase-fabric/6
+
+requirements: 
+	[
+	lead/155
+	silicon/180
+	
+plastanium/50
+	thorium/80
+	
+]
+
+category: crafting
+craftEffect: smeltsmoke
+research: plastanium-super-compressor

@@ -1,0 +1,155 @@
+Type: naval
+name: seka
+description: "Use a wave as a weapon, in addition to the electric bullets. Got the capacity to heal allied structures and units. Can overdrive"
+maxVelocity: 0.9
+speed: 0.8
+buildSpeed: 1.7
+
+boostMultiplier: 1.15
+accel: 0.1
+engineColor: 84f491
+engineOffset: 12
+drag: 0.1
+commandLimit: 8
+rotateSpeed: 1.8
+hitsize: 15
+health: 950
+trailLength: 30
+rotateShooting: false
+weapons: 
+  [
+    {
+    name: electric-gun
+    shootSound: Sounds.missile
+    mirror: true
+    rotate: true
+	alternate: true
+    x: 5
+	y: 8
+    reload: 20
+    shots: 1
+    recoil: 2
+	inaccuracy: 15
+    bullet: { 
+		type: BasicBulletType
+		lifetime: 52
+		shootSound: boom
+		speed: 2
+		keepVelocity: false
+		frontColor: ffffff
+		healPercent: 7
+		damage: 10
+		collidesTeam: true
+		backColor: 84f491
+		trailColor: 84f491
+		fragBullets: 3
+		fragCone: 70
+		fragBullet: { 
+		type: LightningBulletType
+			lightning: 2
+			lightningLength: 4
+			lightningColor: 84f491
+			lightningDamage: 2
+			collidesTeam: true
+			healPercent: 1
+				}
+			}
+		}
+	{
+	name: electric-gun-middle
+    shootSound: Sounds.missile
+    mirror: false
+	shootSound: boom
+    rotate: true
+	alternate: true
+    x: 0
+	y: 10
+    reload: 40
+    shots: 1
+    recoil: 2
+	inaccuracy: 15
+    bullet: { 
+		type: BasicBulletType
+		lifetime: 52
+		speed: 2
+		keepVelocity: false
+		frontColor: ffffff
+		healPercent: 7
+		damage: 10
+		collidesTeam: true
+		backColor: 84f491
+		trailColor: 84f491
+		fragBullets: 3
+		fragCone: 70
+		fragBullet: { 
+		type: LightningBulletType
+			lightning: 2
+			lightningLength: 3
+			lightningColor: 84f491
+			lightningDamage: 2
+			collidesTeam: true
+			healPercent: 1
+				}
+			}
+		}
+	{
+	name: electric-gun-middle
+    shootSound: Sounds.missile
+    mirror: false
+	shootSound: boom
+    rotate: true
+	alternate: true
+    x: 0
+	y: -10
+    reload: 40
+    shots: 1
+    recoil: 2
+	inaccuracy: 15
+    bullet: { 
+		type: BasicBulletType
+		lifetime: 52
+		speed: 2
+		keepVelocity: false
+		frontColor: ffffff
+		healPercent: 7
+		damage: 10
+		collidesTeam: true
+		backColor: 84f491
+		trailColor: 84f491
+		fragBullets: 3
+		fragCone: 70
+		fragBullet: { 
+		type: LightningBulletType
+			lightning: 2
+			lightningLength: 3
+			lightningColor: 84f491
+			lightningDamage: 2
+			collidesTeam: true
+			healPercent: 1
+				}
+			}
+		}
+	{
+	name: wave-unit
+	top: true
+	shootSound: wave
+	rotate: true
+	reload: 3
+	lifetime: 120
+	y: -1
+	x: 0
+	mirror: false
+	recoil: 0
+	shootSound: Sounds.lasershoot
+	bullet: waterShot
+	}
+	]
+research: {
+    parent: kashi
+    requirements:
+    [
+        {item: silicon, amount: 13000}
+		{item: titanium, amount: 8000}
+		{item: metaglass, amount: 4000}
+    ]
+}

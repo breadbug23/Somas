@@ -1,0 +1,68 @@
+Type: naval
+name: Gemei
+description: "A massive floating fortress. Use a gigantic lazer."
+maxVelocity: 0.7
+speed: 0.6
+buildSpeed: 3
+accel: 0.3
+drag: 0.3
+engineSize: 15
+engineOffset: 35
+boostMultiplier: 0.7
+engineColor: 84f491
+rotateSpeed: 0.8
+hitsize: 55
+health: 30000
+armor: 30
+trailLength: 70
+commandLimit: 20
+trailX: 15
+trailY: -18
+trailScl: 4
+
+rotateShooting: false
+weapons: 
+[
+{
+	name: gemei-cannon
+	reload: 350
+	x: 0
+	y: 0
+	mirror: false
+	rotate: true
+	shots: 1
+	rotateSpeed: 1.4
+	alternate: false
+	shootY: 19
+	recoil: 16
+	shadow: 50
+	bullet: 
+		{
+		type: ShrapnelBulletType
+		length: 700
+		damage: 2350
+		witdh: 65
+		lifetime: 100
+		serrationLenScl: 100
+		serrationSpaceOffset: 500
+		serrations: 3
+		serrationWidth: 10
+		largeHit: true
+		fromColor: 84f491
+		toColor: 84f491
+		healPercent: 25
+		collidesTeam: true
+		sideAngle: 10
+		}
+	}
+]
+research: {
+    parent: meise
+    requirements:
+    [
+        {item: lead, amount: 99000},
+        {item: phase-fabric, amount: 31000}
+		{item: surge-alloy, amount: 46000}
+		{item: plastanium, amount: 56000}
+    ]
+}

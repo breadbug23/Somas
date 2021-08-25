@@ -1,0 +1,104 @@
+Type: naval
+name: meise
+descrition: "If you though cluster missiles where ridiculous, you are not prepared."
+maxVelocity: 0.8
+speed: 0.7
+buildSpeed: 2
+
+boostMultiplier: 1.15
+accel: 0.1
+engineColor: 84f491
+engineOffset: 21
+engineSize: 7
+drag: 0.1
+rotateSpeed: 1.3
+hitsize: 37
+health: 10000
+armor: 10
+trailLength: 50
+commandLimit: 10
+trailX: 8
+trailY: -18
+trailScl: 3
+
+rotateShooting: false
+weapons: 
+  [
+    {
+    name: cluster-cluster-missile
+    shootSound: Sounds.missile
+    mirror: false
+    rotate: true
+	rotateSpeed: 4
+    x: 0
+	y: 0
+    reload: 135
+	inaccuracy: 7
+	spacing: 8
+	shots: 1
+    recoil: 8
+	inaccuracy: 15
+    bullet: { 
+		type: MissileBulletType
+		homingPower: 0.01
+		weaveMag: 1
+		weaveScale: 8
+		lifetime: 160
+		speed: 1
+		accel: 0.5
+		keepVelocity: false
+		frontColor: ffffff
+		healPercent: 80
+		damage: 100
+		width: 10
+		length: 12
+		collidesTeam: true
+		backColor: 84f491
+		trailColor: 84f491
+		fragBullets: 12
+		fragCone: 90
+		fragBullet: {
+			type: MissileBulletType
+			homingPower: 0.1
+			weaveMag: 6
+			weaveScale: 4
+			lifetime: 80
+			speed: 1.4
+			keepVelocity: false
+			frontColor: ffffff
+			healPercent: 35
+			damage: 45
+			collidesTeam: true
+			backColor: 84f491
+			trailColor: 84f491
+			fragBullets: 9
+			fragCone: 70
+			fragBullet: {
+				type: MissileBulletType
+				homingPower: 0.5
+				weaveMag: 3
+				weaveScale: 4
+				lifetime: 106
+				length: 2
+				width: 4
+				frontColor: ffffff
+				trailColor: 84f491
+				backColor: 84f491
+				speed: 3
+				healPercent: 3
+				damage: 7
+				collidesTeam: true
+					}
+				}
+			}
+		}
+	]
+research: {
+    parent: seka
+    requirements:
+    [
+        {item: silicon, amount: 85000}
+		{item: titanium, amount: 75000}
+		{item: plastanium, amount: 65000}
+    ]
+}

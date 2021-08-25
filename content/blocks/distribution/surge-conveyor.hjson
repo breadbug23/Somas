@@ -1,0 +1,16 @@
+name: Surge Conveyor
+type: StackConveyor
+description: "A better, faster plastanium conveyor. Can be placed on ground AND on liquids."
+requirements: 
+ [
+copper/1
+titanium/1
+silicon/1
+surge-alloy/1
+]
+health: 85
+speed: 0.1222
+itemCapacity: 20
+research: plastanium-conveyor
+category: distribution
+placeableLiquid: true

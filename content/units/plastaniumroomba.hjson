@@ -1,0 +1,26 @@
+Type: legs
+name: Plastanium Roomba
+descrition: "A legged variant of the silicon roomba."
+maxVelocity: 1.3
+legCount: 4
+legMoveSpace: 1
+legLength: 8
+legSpeed: 0.6
+allowLegStep: true
+visualElevation: 0.3
+speed: 1.1
+hovering: true
+itemCapacity: 30
+accel: 0.4
+drag: 0.1
+hitsize: 4
+health: 70
+commandLimit: 0
+research: {
+    parent: transport-factory
+    requirements:
+    [
+        {item: silicon, amount: 1500}
+		{item: plastanium, amount: 1500}
+    ]
+}

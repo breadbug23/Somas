@@ -1,0 +1,46 @@
+type: Drill
+
+name: Thermal Drill
+description: "More efficient than the airblast drill, and cost no power. require slag."
+health: 1600
+
+size: 4
+requirements: 
+	[
+	
+titanium/75
+	
+thorium/100
+	silicon/100
+
+	copper/75
+
+	surge-alloy/50
+	
+] 
+
+tier: 65
+drillTime: 180
+
+
+rotateSpeed: 10
+
+drawRim: true
+
+consumes: 
+	{
+
+
+	liquid: 
+		{
+		
+liquid: slag
+		
+amount: 0.15
+		}
+	} 
+	
+baseEfficiency: 1
+category: production
+attribute: heat
+research: blast-drill

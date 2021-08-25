@@ -1,0 +1,57 @@
+Type: flying
+name: Lightning
+description: "Fire three close-range blasts at enemies. "
+maxVelocity: 0.55
+speed: 0.55
+flying: true
+visualElevation: 0.30
+rotateSpeed: 1.9
+hitsize: 13
+engineSize: 0
+health: 890
+armor: 4
+commandLimit: 8
+weapons: 
+  [
+    {
+        name: fus
+        top: true
+        reload: 50
+        shots: 3
+		spread: 60
+        shootcone: 90
+        spacing: 40
+		x: 0
+		y: 2
+		mirror: false
+        ejectEffect: none
+        shootSound: shotgun
+        bullet: {
+			type: ShrapnelBulletType
+			length: 45
+			damage: 65
+			width: 12.5
+			serrationLenScl: 3.5
+			serrationSpaceOffset: 30
+			serrationFadeOffset: 0
+			serrations: 5
+			serrationWidth: 3
+			hitColor: bf92f9
+			fromColor: bf92f9
+			toColor: bf92f9
+			sapStrength: 0.8
+			lifetime: 30
+        }
+		shootStatus: slow
+		shootStatusDuration: 60
+		}
+	]
+research: {
+    parent: taser
+    requirements:
+	[
+        {item: silicon, amount: 13000}
+		{item: titanium, amount: 8000}
+		{item: metaglass, amount: 4000}
+    ]
+}

@@ -1,0 +1,60 @@
+Type: flying
+name: Thunder
+description: "Fire a long range ray at the enemy"
+maxVelocity: 0.55
+speed: 0.5
+flying: true
+visualElevation: 0.35
+rotateSpeed: 1.7
+hitsize: 19
+engineSize: 0
+health: 7800
+armor: 8
+commandLimit: 8
+weapons: 
+  [
+    {
+        name: long ray
+        top: false
+        reload: 160
+        shootcone: 0
+		shots: 3
+        spacing: 2
+		x: 0
+		y: 6
+		mirror: false
+        ejectEffect: none
+        shootSound: laserblast
+        bullet: {
+			type: LaserBulletType
+			length: 150
+			damage: 160
+			width: 20
+			drawSize: 140
+			shake: 1
+			lightColor: bf92f9
+			lightningColor: bf92f9
+			fromColor: bf92f9
+			toColor: bf92f9
+			lifetime: 65
+			lightningSpacing: 11
+			lightningLength: 2
+			lightningDelay: 0.4
+			lightningLengthRand: 5
+			lightningDamage: 14
+			lightningAngleRand: 13
+			largeHit: true
+        }
+		shootStatus: slow
+		shootStatusDuration: 100
+		}
+	]
+research: {
+    parent: lightning
+    requirements:
+    [
+        {item: silicon, amount: 85000}
+		{item: titanium, amount: 75000}
+		{item: plastanium, amount: 65000}
+    ]
+}
