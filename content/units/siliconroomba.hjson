@@ -6,7 +6,7 @@ speed: 0.9
 itemCapacity: 15
 accel: 0.4
 drag: 0.1
-hitsize: 4
+hitSize: 4
 health: 70
 commandLimit: 0
 research: {
