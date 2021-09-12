@@ -11,7 +11,7 @@ engineOffset: 35
 boostMultiplier: 0.7
 engineColor: 84f491
 rotateSpeed: 0.8
-hitsize: 55
+hitSize: 55
 health: 30000
 armor: 30
 trailLength: 70
