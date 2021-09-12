@@ -7,7 +7,7 @@ engineColor: 84f491
 accel: 0.4
 drag: 0.1
 rotateSpeed: 3.3
-hitsize: 8
+hitSize: 8
 buildSpeed: 0.5
 boostMultiplier: 1.25
 health: 340
