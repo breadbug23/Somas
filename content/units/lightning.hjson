@@ -6,7 +6,7 @@ speed: 0.55
 flying: true
 visualElevation: 0.30
 rotateSpeed: 1.9
-hitsize: 13
+hitSize: 13
 engineSize: 0
 health: 890
 armor: 4
