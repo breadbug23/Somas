@@ -16,7 +16,7 @@ weapons:
     {
         name: fus
         top: true
-        reload: 50
+        reload: 40
         shots: 3
 		spread: 60
         shootcone: 90
