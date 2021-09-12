@@ -9,7 +9,7 @@ accel: 0.4
 drag: 0.1
 visualElevation: 0.3
 flying: true
-hitsize: 4
+hitSize: 4
 health: 70
 commandLimit: 0
 research: {
