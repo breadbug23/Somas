@@ -7,9 +7,11 @@ flying: true
 visualElevation: 0.30
 rotateSpeed: 1.9
 hitSize: 13
+accel: 0.04
+drag:0.018
 engineSize: 0
 health: 890
-armor: 4
+armor: 19
 commandLimit: 8
 weapons: 
   [
@@ -21,14 +23,16 @@ weapons:
 		spread: 60
         shootcone: 90
         spacing: 40
+		recoil: 1
 		x: 0
-		y: 2
+		y: 6
 		mirror: false
         ejectEffect: none
         shootSound: shotgun
         bullet: {
 			type: ShrapnelBulletType
 			length: 45
+			recoil: 0.1
 			damage: 65
 			width: 12.5
 			serrationLenScl: 3.5
