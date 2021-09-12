@@ -12,7 +12,7 @@ engineOffset: 12
 drag: 0.1
 commandLimit: 8
 rotateSpeed: 1.8
-hitsize: 15
+hitSize: 15
 health: 950
 trailLength: 30
 rotateShooting: false
