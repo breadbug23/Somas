@@ -6,7 +6,7 @@ speed: 1
 flying: true
 visualElevation: 0.2
 rotateSpeed: 3.3
-hitsize: 8
+hitSize: 8
 legCount: 0
 engineSize: 0
 health: 160
