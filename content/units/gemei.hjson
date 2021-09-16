@@ -11,7 +11,7 @@ engineOffset: 35
 boostMultiplier: 0.7
 engineColor: 84f491
 rotateSpeed: 0.8
-hitSize: 55
+hitSize: 60
 health: 30000
 armor: 30
 trailLength: 70
@@ -36,6 +36,7 @@ weapons:
 	shootY: 19
 	recoil: 16
 	shadow: 50
+	shootSound: laserblast
 	bullet: 
 		{
 		type: ShrapnelBulletType
@@ -45,7 +46,7 @@ weapons:
 		lifetime: 100
 		serrationLenScl: 100
 		serrationSpaceOffset: 500
-		serrations: 3
+		serrations: 6
 		serrationWidth: 10
 		largeHit: true
 		fromColor: 84f491
