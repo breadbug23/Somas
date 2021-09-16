@@ -1,0 +1,35 @@
+type: PowerTurret
+
+name: Venna
+
+description: "A power killing, ever lasting source of weaponised electricity. Fries everything that dare come close."
+
+requirements: [
+copper/1500
+graphite/650
+titanium/650
+silicon/650
+surge-alloy/200
+]
+shootType: 
+ {
+		type: LightningBulletType
+		damage: 8
+		lightningLength: 12
+        lightningLengthRand: 10
+        lightning: 5
+			}
+reloadTime: 5
+shots: 15
+powerUse: 10
+range: 190
+size: 4
+targetGround: true
+liquidCapacity: 50
+canOverdrive: true
+targetAir: true
+rotateSpeed: 0.8
+inaccuracy: 90
+health: 1200
+shootSound: spark
+category: turret
