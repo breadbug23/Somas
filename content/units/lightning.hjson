@@ -60,7 +60,7 @@ weapons:
 		reload: 30
 		top: false
 		shots: 5
-		recoil: 0.2
+		recoil: 0.8
 		shootSound: boom
 		inaccuracy: 15
 		bullet: {
