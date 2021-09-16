@@ -70,14 +70,13 @@ weapons:
 	name: heal-weapon-mount
 	top: true
 	rotate: true
-	shootSound: laser
+	shootSound: lasershoot
 	reload: 15
 	lifetime: 130
 	y: -3
 	x: 6
 	mirror: true
 	recoil: 2
-	shootSound: Sounds.lasershoot
 	bullet: {
 		type: LaserBoltBulletType
 		lifetime: 37
