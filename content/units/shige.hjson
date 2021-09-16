@@ -52,11 +52,10 @@ weapons:
 	reload: 15
 	lifetime: 130
 	y: 3
-	shootSound: laser
+	shootSound: lasershoot
 	x: 0
 	mirror: false
 	recoil: 2
-	shootSound: Sounds.lasershoot
 	bullet: {
 		type: LaserBoltBulletType
 		lifetime: 37
