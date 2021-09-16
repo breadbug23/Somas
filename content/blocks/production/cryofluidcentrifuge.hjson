@@ -1,0 +1,40 @@
+size: 3
+name: Cryofluid Centrifuge
+description: "Mixes water and fine titanium powder to produce large amounts of cryofluid."
+itemCapacity: 30
+
+liquidCapacity: 30
+consumes: 
+	{
+	
+power: 3.5
+	
+items: 
+		{
+		
+items: 
+			[
+			titanium/4
+]
+		}
+	liquid: 
+		{
+liquid: water
+		
+amount: 1.2
+		}
+	} 
+
+outputLiquid: cryofluid/1.2
+
+requirements: 
+	[
+	lead/150
+	titanium/120
+	silicon/130
+	plastanium/100
+	graphite/140
+	]
+
+category: crafting
+research: cryofluid-mixer

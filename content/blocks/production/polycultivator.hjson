@@ -1,0 +1,30 @@
+name: Poly Cultivator
+description: "Cultivates amounts of concentrations of atmospheric spores into spore podes."
+itemCapacity: 28
+size: 3
+consumes: 
+	{
+	
+power: 2.6
+	
+	liquid: 
+		{
+		liquid: water
+		amount: 0.9
+			} 
+	}
+outputItem: spore-pod/6
+
+requirements: 
+		[
+	lead/100
+	metaglass/20
+	titanium/50
+	silicon/80
+	plastanium/25
+]
+baseEfficiency: 1
+attribute: spores
+category: production
+baseEfficiency: 1
+research: cultivator
