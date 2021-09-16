@@ -1,4 +1,4 @@
-type: GenericSmelter
+type: GenericCrafter
 size: 3
 name: Pyratite Centrifuge
 description: "Mixes coal, lead and sand into pyratite. Use the thermal power of slag to boost the production"
