@@ -17,7 +17,7 @@ commandLimit: 10
 weapons: 
   [
 	{
-        name: strm
+        name: vennacanon
         top: true
         reload: 5
         shots: 18
@@ -35,6 +35,35 @@ weapons:
             lightningLengthRand: 10
             lightningColor: bf92f9
             lightning: 5
+			}
+		}
+	{	
+		name: missileorbit
+        top: false
+        reload: 300
+        shots: 180
+        inaccuracy: 360
+        spacing: 0
+		x: 0
+		y: 0
+		mirror: false
+        ejectEffect: none
+        shootSound: spark
+		bullet: 
+			{
+			type: MissileBulletType
+			homingPower: 1
+			weaveMag: 4
+			weaveScale: 4
+			lifetime: 150
+			speed: 1.5
+			keepVelocity: false
+			frontColor: ffffff
+			damage: 10
+			collidesTeam: false
+			backColor: bf92f9
+			trailColor: bf92f9
+			hitSound: blastExplosion
 			}
 		}
 	]
