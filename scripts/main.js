@@ -18,5 +18,7 @@ require("units/plastaniumroomba")
 require("units/surgeroomba")
 //blocks
 require("block/phasereweaver")
+require("block/polycultivator")
+require("block/cryofluidcentrifuge")
 //reconstructor
 require("reconstructor")
