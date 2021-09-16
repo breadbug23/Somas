@@ -1,4 +1,4 @@
-type: GenericSmelter
+type: GenericCrafter
 size: 3
 name: Blast Centrifuge
 description: "Produce blast compound from pyatite and spore pod. Use the thermal power of slag to boost the production"
@@ -30,7 +30,7 @@ amount: 0.3
 		}
 	} 
 
-outputItem: blast-compound/5
+outputItem: blast-compound/8
 requirements: 
 	[
 	lead/45
