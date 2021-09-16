@@ -16,7 +16,7 @@ commandLimit: 8
 weapons: 
   [
     {
-        name: fus
+        name: fuse-canon
         top: true
         reload: 40
         shots: 3
@@ -48,6 +48,34 @@ weapons:
         }
 		shootStatus: slow
 		shootStatusDuration: 60
+		}
+	{
+		name: lightning-missile
+		shootSound: Sounds.missile
+		mirror: true
+		rotate: false
+		alternate: true
+		x: 12.5
+		y: 0
+		reload: 30
+		top: false
+		shots: 5
+		recoil: 0.2
+		shootSound: boom
+		inaccuracy: 15
+		bullet: {
+			type: MissileBulletType
+			homingPower: 0.1
+			weaveMag: 4
+			weaveScale: 4
+			lifetime: 126
+			speed: 2
+			keepVelocity: false
+			frontColor: ffffff
+			damage: 15
+			backColor: bf92f9
+			trailColor: bf92f9
+			}
 		}
 	]
 research: {
