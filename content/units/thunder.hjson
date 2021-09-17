@@ -56,46 +56,26 @@ weapons:
 		name: thunder-turret
 		y: 10
 		x: 0
-		reload: 20
+		reload: 10
 		mirror: false
 		rotate: true
 		spacing: 4
 		top: true
 		shootcone: 2
-		bullet: {
-			type: BasicBulletType
-			width: 16
-			height: 13
-			shootEffect: shootBig
-			smokeEffect: shootBigSmoke
-			lifetime: 80
-			damage: 10
-			frontColor: bf92f9
-			backColor: ffffff
-			}
+		bullet: flakGlass
 			}
 			{
 		name: thunder-turret
 		y: -5
 		x: 8.66
-		reload: 10
+		reload: 5
 		mirror: true
 		rotate: true
 		alternate: false
 		spacing: 4
 		top: true
 		shootcone: 2
-		bullet: {
-			type: BasicBulletType
-			width: 16
-			height: 13
-			shootEffect: shootBig
-			smokeEffect: shootBigSmoke
-			lifetime: 80
-			damage: 10
-			frontColor: bf92f9
-			backColor: ffffff
-			}
+		bullet: flakGlass
 		}
 	]
 research: {
