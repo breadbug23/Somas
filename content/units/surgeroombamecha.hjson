@@ -1,0 +1,25 @@
+Type: flying
+name: Surge Roomba Mecha
+descrition: "An upgraded version of the surge roomba"
+maxVelocity: 5
+speed: 4.5
+hovering: true
+itemCapacity: 200
+accel: 0.4
+canBuild: true
+drag: 0.1
+visualElevation: 0.6
+canBuild: true
+flying: true
+hitSize: 8
+health: 180
+commandLimit: 0
+research: {
+    parent: surgeroomba
+    requirements:
+    [
+        {item: silicon, amount: 3000}
+		{item: surge-alloy, amount: 3000}
+		{item: graphite, amount: 3000}
+    ]
+}

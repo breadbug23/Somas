@@ -1,0 +1,23 @@
+Type: naval
+name: graphite Roomba Mecha
+descrition: "An upgraded version of the graphite roomba"
+maxVelocity: 3
+speed: 2.8
+itemCapacity: 80
+accel: 0.4
+drag: 0.1
+hitSize: 8
+health: 180
+trailLength: 30
+canBuild: true
+trailX: 5
+trailY: 2
+commandLimit: 0
+research: {
+    parent: graphiteroomba
+    requirements:
+    [
+        {item: silicon, amount: 3000}
+		{item: graphite, amount: 6000}
+    ]
+}

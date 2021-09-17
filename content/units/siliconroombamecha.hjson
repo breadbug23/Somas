@@ -1,0 +1,20 @@
+Type: mech
+name: Silicon Roomba Mecha
+descrition: "An upgraded version of the silicon roomba."
+maxVelocity: 2.5
+speed: 2
+itemCapacity: 60
+accel: 0.4
+drag: 0.1
+hitSize: 8
+canBuild: true
+health: 160
+commandLimit: 0
+research: {
+    parent: siliconroomba
+    requirements:
+    [
+        {item: silicon, amount: 3000}
+		{item: graphite, amount: 3000}
+    ]
+}
