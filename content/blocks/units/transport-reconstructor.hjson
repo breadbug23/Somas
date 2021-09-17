@@ -1,0 +1,30 @@
+name: Transport Reconstructor
+type: Reconstructor
+	size: 2
+	consumes: {
+		power: 2
+		items: {
+			items: [
+				silicon/100
+				graphite/20
+				plastanium/20
+			]
+		}
+	}
+requirements:
+	[
+	copper/50
+	graphite/50
+	silicon/120
+	surge-alloy/20
+	plastanium/40
+	]
+	constructTime: 700
+	upgrades: [
+		[siliconroomba, siliconroombamecha],
+		[graphiteroomba, graphiteroombamecha],
+		[plastaniumroomba, plastaniumroombamecha],
+		[surgeroomba, surgeroombamecha]
+	]
+	category: units
+	research: transport-factory
