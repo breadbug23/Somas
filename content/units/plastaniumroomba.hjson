@@ -1,16 +1,16 @@
 Type: legs
 name: Plastanium Roomba
 descrition: "A legged variant of the silicon roomba."
-maxVelocity: 1.3
+maxVelocity: 1.8
 legCount: 4
 legMoveSpace: 1
 legLength: 8
 legSpeed: 0.6
 allowLegStep: true
 visualElevation: 0.3
-speed: 1.1
+speed: 1.8
 hovering: true
-itemCapacity: 30
+itemCapacity: 40
 accel: 0.4
 drag: 0.1
 hitSize: 4
