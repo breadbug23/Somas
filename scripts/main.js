@@ -16,9 +16,14 @@ require("units/siliconroomba")
 require("units/graphiteroomba")
 require("units/plastaniumroomba")
 require("units/surgeroomba")
+require("units/siliconroombamecha")
+require("units/graphiteroombamecha")
+require("units/plastaniumroombamecha")
+require("units/surgeroombamecha")
 //blocks
 require("block/phasereweaver")
 require("block/polycultivator")
 require("block/cryofluidcentrifuge")
 //reconstructor
 require("reconstructor")
+//planet
