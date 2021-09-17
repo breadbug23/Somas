@@ -1,8 +1,8 @@
 Type: mech
 name: Silicon Roomba
 descrition: "A simple roomba that at got out of his conventionnal path. Using is for transport of resource is the only viable use."
-maxVelocity: 1
-speed: 0.9
+maxVelocity: 1.5
+speed: 1.5
 itemCapacity: 15
 accel: 0.4
 drag: 0.1
