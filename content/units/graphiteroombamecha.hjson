@@ -3,7 +3,7 @@ name: graphite Roomba Mecha
 descrition: "An upgraded version of the graphite roomba"
 maxVelocity: 3
 speed: 2.8
-itemCapacity: 80
+itemCapacity: 120
 accel: 0.4
 drag: 0.1
 hitSize: 8
