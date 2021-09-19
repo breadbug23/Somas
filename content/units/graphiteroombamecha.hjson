@@ -1,5 +1,6 @@
 Type: naval
 name: graphite Roomba Mecha
+controller: MinerAI
 descrition: "An upgraded version of the graphite roomba"
 maxVelocity: 3
 speed: 2.8
