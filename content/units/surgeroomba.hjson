@@ -1,5 +1,6 @@
 Type: flying
 name: Surge Roomba
+controller: MinerAI
 descrition: "A flying variation of the silicon roomba"
 maxVelocity: 1.5
 speed: 1.3
