@@ -6,18 +6,15 @@ type: Reconstructor
 		items: {
 			items: [
 				silicon/100
-				graphite/20
-				plastanium/20
+				lead/160
+				graphite/120
 			]
 		}
 	}
 requirements:
 	[
-	copper/50
-	graphite/50
-	silicon/120
-	surge-alloy/20
-	plastanium/40
+	graphite/100
+	silicon/130
 	]
 	constructTime: 700
 	upgrades: [
