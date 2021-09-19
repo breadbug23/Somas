@@ -1,15 +1,19 @@
-Type: flying
+type: payload
 name: Surge Roomba Mecha
+controller: MinerAI
+lowAltitude: true
 descrition: "An upgraded version of the surge roomba"
 maxVelocity: 5
 speed: 4.5
 hovering: true
 itemCapacity: 200
 accel: 0.4
-canBuild: true
 drag: 0.1
-visualElevation: 0.6
+visualElevation: 0.3
+payloadCapacity: 384
+payloadLimit: 384
 canBuild: true
+buildSpeed: 1.2
 flying: true
 hitSize: 8
 health: 180
