@@ -1,6 +1,7 @@
 Type: naval
 name: graphite Roomba
 descrition: "An naval variant of the silicon roomba"
+controller: MinerAI
 maxVelocity: 1.8
 speed: 1.6
 itemCapacity: 20
