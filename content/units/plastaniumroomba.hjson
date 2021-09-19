@@ -1,5 +1,6 @@
 Type: legs
 name: Plastanium Roomba
+controller: MinerAI
 descrition: "A legged variant of the silicon roomba."
 maxVelocity: 1.8
 legCount: 4
