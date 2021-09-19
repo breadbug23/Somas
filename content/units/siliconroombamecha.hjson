@@ -1,6 +1,7 @@
 Type: mech
 name: Silicon Roomba Mecha
 descrition: "An upgraded version of the silicon roomba."
+controller: MinerAI
 maxVelocity: 2.5
 speed: 2
 itemCapacity: 60
