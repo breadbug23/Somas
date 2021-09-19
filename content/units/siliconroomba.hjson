@@ -1,5 +1,6 @@
 Type: mech
 name: Silicon Roomba
+controller: MinerAI
 descrition: "A simple roomba that at got out of his conventionnal path. Using is for transport of resource is the only viable use."
 maxVelocity: 1.5
 speed: 1.5
