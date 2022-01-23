@@ -46,25 +46,17 @@ weapons:
 			}
 		}
 	{
-	name: heal-gun
+	name: heal-ray
+	type: RepairBeamWeapon
 	top: true
 	rotate: true
-	reload: 15
-	lifetime: 130
+	repairSpeed: 0.65
 	y: 3
-	shootSound: lasershoot
 	x: 0
 	mirror: false
-	recoil: 2
 	bullet: {
-		type: LaserBoltBulletType
-		lifetime: 37
-		healPercent: 5
-		speed: 3
-		damage: 11
-		collidesTeam: true
-		backColor: 84f491
-		frontColor: ffffff
+		type: BulletType
+		maxRange: 120
 			}
 		}
 	]
