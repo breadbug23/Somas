@@ -1,7 +1,11 @@
+type: GenericCrafter
 name: Poly Cultivator
 description: "Cultivates amounts of concentrations of atmospheric spores into spore podes."
 itemCapacity: 28
 size: 3
+
+drawer: DrawCultivator
+
 consumes: 
 	{
 	
