@@ -1,9 +1,13 @@
+type: GenericCrafter
 size: 3
 name: Cryofluid Centrifuge
 description: "Mixes water and fine titanium powder to produce large amounts of cryofluid."
 itemCapacity: 30
 
 liquidCapacity: 30
+
+drawer: DrawMixer
+
 consumes: 
 	{
 	
