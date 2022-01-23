@@ -1,8 +1,12 @@
+type: GenericCrafter
 size: 3
 name: Phase Reweaver
 description: "Synthesizes phase fabric from thorium and sand, using a cooling system to boost production."
 itemCapacity: 40
 liquidCapacity: 12
+
+drawer: DrawWeave
+
 consumes: 
 	{
 	
