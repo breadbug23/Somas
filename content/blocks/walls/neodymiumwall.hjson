@@ -1,0 +1,9 @@
+localizedName: Neodymium Wall
+description: "Protects structures from enemy projectiles, reflect all bullets upon impact."
+health: 860
+size: 1
+requirements: [
+  neodymium/6
+]
+category: defense
+research: thorium-wall-large

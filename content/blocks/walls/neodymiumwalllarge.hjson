@@ -1,0 +1,9 @@
+localizedName: Large Neodymium Wall
+description: "Protects structures from enemy projectiles, reflect all bullets upon impact."
+health: 3440
+size: 2
+requirements: [
+  neodymium/24
+]
+category: defense
+research: neodymiumwall
