@@ -19,42 +19,19 @@ rotateShooting: false
 weapons: 
   [
     {
-    name: electric-gun
-    shootSound: Sounds.missile
-    mirror: true
-    rotate: true
-	alternate: true
-    x: 5
-	y: 8
-    reload: 20
-    shots: 1
-    recoil: 2
-	inaccuracy: 15
-    bullet: { 
-		type: BasicBulletType
-		lifetime: 52
-		shootSound: boom
-		speed: 2
-		keepVelocity: false
-		frontColor: ffffff
-		healPercent: 7
-		damage: 10
-		collidesTeam: true
-		backColor: 84f491
-		trailColor: 84f491
-		fragBullets: 3
-		fragCone: 70
-		fragBullet: { 
-		type: LightningBulletType
-			lightning: 2
-			lightningLength: 4
-			lightningColor: 84f491
-			lightningDamage: 2
-			collidesTeam: true
-			healPercent: 1
-				}
+	name: heal-weapon-mount
+	type: RepairBeamWeapon
+	top: true
+	rotate: true
+	repairSpeed: 0.70
+	y: 5
+	x: 8
+	mirror: true
+	bullet: {
+		type: BulletType
+		maxRange: 120
 			}
-		}
+	}
 	{
 	name: electric-gun-middle
     shootSound: Sounds.missile
@@ -65,7 +42,7 @@ weapons:
     x: 0
 	y: 10
     reload: 40
-    shots: 1
+    shots: 2
     recoil: 2
 	inaccuracy: 15
     bullet: { 
@@ -83,8 +60,8 @@ weapons:
 		fragCone: 70
 		fragBullet: { 
 		type: LightningBulletType
-			lightning: 2
-			lightningLength: 3
+			lightning: 3
+			lightningLength: 5
 			lightningColor: 84f491
 			lightningDamage: 2
 			collidesTeam: true
@@ -93,49 +70,32 @@ weapons:
 			}
 		}
 	{
-	name: electric-gun-middle
-    shootSound: Sounds.missile
+	name: pointDefend
+	type: PointDefenseWeapon
     mirror: false
-	shootSound: boom
     rotate: true
-	alternate: true
+	targetInterval: 10
+	targetSwitchInterval: 12
     x: 0
 	y: -10
-    reload: 40
-    shots: 1
-    recoil: 2
-	inaccuracy: 15
+    reload: 5
     bullet: { 
 		type: BasicBulletType
-		lifetime: 52
-		speed: 2
-		keepVelocity: false
-		frontColor: ffffff
-		healPercent: 7
-		damage: 10
-		collidesTeam: true
-		backColor: 84f491
-		trailColor: 84f491
-		fragBullets: 3
-		fragCone: 70
-		fragBullet: { 
-		type: LightningBulletType
-			lightning: 2
-			lightningLength: 3
-			lightningColor: 84f491
-			lightningDamage: 2
-			collidesTeam: true
-			healPercent: 1
+		shootEffect: sparkShoot
+        hitEffect: pointHit
+        maxRange: 360
+        damage: 20
 				}
 			}
-		}
 	{
 	name: wave-unit
 	top: true
+	burstSpacing: 10
+	shots: 10
+	reload: 30
+	inaccuracy: 10
 	shootSound: wave
 	rotate: true
-	reload: 3
-	lifetime: 120
 	y: -1
 	x: 0
 	mirror: false
