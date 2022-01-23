@@ -28,12 +28,13 @@ weapons:
 	reload: 350
 	x: 0
 	y: 0
-	mirror: false
 	rotate: true
+	mirror: false
 	shots: 1
 	rotateSpeed: 1.4
 	alternate: false
-	shootY: 19
+	shootY: 5
+	rotateSpeed: 1
 	recoil: 16
 	shadow: 50
 	shootSound: laserblast
@@ -46,8 +47,8 @@ weapons:
 		lifetime: 100
 		serrationLenScl: 100
 		serrationSpaceOffset: 500
-		serrations: 6
-		serrationWidth: 10
+		serrations: 3
+		serrationWidth: 5
 		largeHit: true
 		fromColor: 84f491
 		toColor: 84f491
@@ -56,6 +57,35 @@ weapons:
 		sideAngle: 10
 		}
 	}
+	{
+	name: para
+	type: RepairBeamWeapon
+	top: true
+	rotate: true
+	repairSpeed: 1.5
+	y: -28
+	x: 20
+	mirror: false
+	bullet: {
+		type: BulletType
+		maxRange: 300
+			}
+		}
+	{
+	name: para
+	type: RepairBeamWeapon
+	top: true
+	rotate: true
+	repairSpeed: 1.5
+	y: -28
+	x: -20
+	mirror: false
+	bullet: {
+		type: BulletType
+		maxRange: 300
+			}
+		}
+		
 ]
 research: {
     parent: meise
