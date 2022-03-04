@@ -3,7 +3,7 @@ name: kinetic generator
 description: "Produce power by using kinetic energy. Need power to kickstart."
 health: 160
 size: 2
-liquidCapacity: 0
+hasLiquids: false
 itemCapacity: 0
 consumes:
  {
